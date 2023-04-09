@@ -18,7 +18,8 @@ const Form = () => {
           const res = await addDoc(messageRef, {
             message: message,
             user: user.displayName,
-            logo: user.photoURL
+            logo: user.photoURL,
+            uid: user.uid
           })
           {/*res = response*/}
           console.log(res);
