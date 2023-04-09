@@ -8,8 +8,12 @@ const MessageContainter = () => {
         <img src={logo} alt="logo" />
         <p>This is message</p>
       </div>
+      <div className="message-box current-user">
+        <img src={logo} alt="logo" />
+        <p>This is message</p>
+      </div>
     </div>
   )
 }
 
-export default MessageContainter
+export default MessageContainter;
