@@ -8,7 +8,6 @@ const Form = () => {
         console.log(message);
     }
 
-
   return (
     <form onSubmit={handleSubmit}>
       <input type="text" name="message" placeholder='Type Message..' onChange={e=>setMessage(e.target.value)} value={message}/>
